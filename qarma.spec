@@ -1,7 +1,7 @@
 Summary:	A drop-in replacement clone for zenity, written in Qt4/5
 Name:		qarma
 Version:	1.0
-Release:	0%{?dist}
+Release:	1%{?dist}
 License:	GPLv2
 Group:		System/Packaging
 URL:		https://github.com/luebking/qarma
