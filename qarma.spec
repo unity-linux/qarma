@@ -31,3 +31,5 @@ rm -rf $RPM_BUILD_ROOT
 %license LICENSE
 %doc README.md
 %{_bindir}/qarma
+
+%changelog
