@@ -33,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %license LICENSE
 %doc README.md
-#%{_bindir}/qarma
+%{_bindir}/qarma
 
 %changelog
 * Wed Apr 11 2018 Jeremiah Summers <jsummers@glynlyon.com> 1.0-4
