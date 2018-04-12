@@ -23,7 +23,7 @@ qmake
 %make
 
 %install
-%make_install -C build
+%make_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
