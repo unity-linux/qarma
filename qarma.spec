@@ -9,8 +9,7 @@ Source0:	https://aur.archlinux.org/cgit/aur.git/plain/qarma-1.0.tar.gz?h=qarma
 BuildRequires:	gcc
 BuildRequires:	qtbase5-common-devel
 BuildRequires:	pkgconfig(Qt5X11Extras)
-BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:	pkgconfig(Qt5Gui)
+BuildRequires:  pkgconfig(Qt5Widgets)
 
 %description
 A drop-in replacement clone for zenity, written in Qt4/5
