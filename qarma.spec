@@ -10,6 +10,7 @@ BuildRequires:	gcc
 BuildRequires:	qtbase5-common-devel
 BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Gui)
 
 %description
 A drop-in replacement clone for zenity, written in Qt4/5
