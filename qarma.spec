@@ -23,7 +23,9 @@ qmake
 %make
 
 %install
-%make_install
+mkdir -p $RPM_BUILD_ROOT/usr/bin/
+install qarma $RPM_BUILD_ROOT/usr/bin/
+strip $RPM_BUILD_ROOT/usr/bin/qarma
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -31,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %license LICENSE
 %doc README.md
-%{_bindir}/qarma
+#%{_bindir}/qarma
 
 %changelog
 * Wed Apr 11 2018 Jeremiah Summers <jsummers@glynlyon.com> 1.0-4
