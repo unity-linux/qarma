@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Summary:	A drop-in replacement clone for zenity, written in Qt4/5
 Name:		qarma
 Version:	1.0
