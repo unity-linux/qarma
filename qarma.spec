@@ -9,7 +9,7 @@ Source0:	https://aur.archlinux.org/cgit/aur.git/plain/qarma-1.0.tar.gz?h=qarma
 BuildRequires:	gcc
 BuildRequires:	qtbase5-common-devel
 BuildRequires:	pkgconfig(Qt5X11Extras)
-BuildRequires:	pkgconfig(QApplication)
+BuildRequires:	pkgconfig(Qt5Core)
 
 %description
 A drop-in replacement clone for zenity, written in Qt4/5
@@ -35,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Wed Apr 11 2018 Jeremiah Summers <jsummers@glynlyon.com> 1.0-4
-- Add QApplication 
+- Add Qt5Core
 
 * Wed Apr 11 2018 Jeremiah Summers <jsummers@glynlyon.com> 1.0-3
 - Add X11 Entras as BuildRequires
